@@ -1,5 +1,6 @@
 
 import './App.css'
+import './index.css'
 
 function App() {
 
@@ -7,8 +8,8 @@ function App() {
   return (
     <>
       <div>
-        <h1>bossku</h1>
-        <button className='btn btn-success'>test</button>
+        <h1 className='underline'>bossku</h1>
+        <button type="button" className="bg-purple-700 border-0 p-10">Purple</button>
       </div>
     
     </>
